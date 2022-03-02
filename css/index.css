@@ -135,3 +135,37 @@ body {
     font-family: 'Libre Baskerville', serif;
     font-size: 40px;
 }
+
+.imagen-pregunta0,
+.imagen-pregunta1,
+.imagen-pregunta2,
+.imagen-pregunta3,
+.imagen-pregunta4{
+  max-width:100%;
+  border-radius: 40px;
+  padding: 0;
+}
+.imagen-pregunta0{
+  width: 60%;
+}
+.imagen-pregunta1{
+  width: 38%;
+}
+
+.imagen-pregunta2{
+  width: 45%;
+}
+
+.imagen-pregunta3{
+  width: 45%;
+
+}
+
+.imagen-pregunta4{
+  width: 45%;
+  
+}
+.image__final {
+  width: 30%;
+  max-width: 100%;
+}
