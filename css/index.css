@@ -1,0 +1,137 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #E9B000;
+    --secundario: #3c038c;
+    --gris: #757575;
+    --turqueza: #008f95;
+}
+
+body {
+    background-image: radial-gradient(circle, rgba(233, 176, 0, 0.5) 0%, rgba(226, 78, 66, 0.9) 100%), url("./img/fondo.png");
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    color: var(--turqueza);
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    color: #008f95;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 2px;
+    background: #008f95;
+    border: 1px solid #008f95;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: none;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+
+}
+
+.button:hover,
+.button:active {
+    background-color: #fff;
+    background-position: 0 0;
+    color: #008f95;
+}
+
+.button:active {
+    opacity: .5;
+}
+
+.pregunta {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    display: inline-block;
+    align-content: center;
+    justify-content: flex-start;
+    background-color: var(--blanco);
+    padding: 40px;
+    border-radius: 28px;
+}
+
+.contenedor-categorias {
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 5rem;
+
+}
+
+.contenedor-categorias a {
+    text-decoration: none;
+    padding: 8px;
+}
+
+.contenedor-categorias a:hover {
+    background-color: var(--primario);
+    color: rgb(70, 7, 78);
+    transition: 2s;
+}
+
+.contenedor-alternativas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.alternativa {
+    margin: 5px;
+    background-color: #e7b4e9;
+    border-radius: 28px;
+    border: 1px solid #972094;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.boton {
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+    background-color: #ff5bb0;
+    border-radius: 6px;
+    border: 1px solid #ee1eb5;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.input-nombre {
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    border-color: #670b73;
+}
+
+.texto-resultado {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+}
