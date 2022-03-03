@@ -1,9 +1,9 @@
 :root {
-    --blanco: #ffffff;
+    --blanco: #ffffff80;
     --negro: #212121;
     --primario: #E9B000;
-    --secundario: #3c038c;
-    --gris: #757575;
+    --secundario: #3c038c52;
+    --gris: #7575756e;
     --turqueza: #008f95;
 }
 
@@ -131,7 +131,26 @@ body {
     border-color: #670b73;
 }
 
+/*Estilos ventana de resultados*/
 .texto-resultado {
     font-family: 'Libre Baskerville', serif;
-    font-size: 40px;
+    font-size: 20px;
+    font-weight: bolder;
 }
+
+.resultado-contenedor{
+display: flex;
+flex-direction: column;
+}
+
+.img-sgv{
+    width: 200px;
+}
+
+.resultado-resultado {
+    background-color: var(--blanco);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px 0 rgb(79, 80, 83);
+}
+
