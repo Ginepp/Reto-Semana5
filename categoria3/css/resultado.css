@@ -1,0 +1,79 @@
+.body{
+    background-image: radial-gradient(circle, rgba(233, 176, 0, 0.5) 0%, rgba(226, 78,66, 0.9) 100%);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 360px;
+    margin: auto;
+}
+
+.image__final-container{
+    margin: 0;
+    width: 21rem; 
+}
+
+.image__final{
+    max-width: 100%;   
+}
+
+.texto-resultado{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.button-select{
+    border-radius: 8px;
+}
+
+.boton{
+    font-weight: bold;
+    background-color: #ffd1df;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 0.1rem solid black;
+}
+
+@media (min-width: 854px){
+    .body{
+        background-image: radial-gradient(circle, rgba(233, 176, 0, 0.5) 0%, rgba(226, 78,66, 0.9) 100%);
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 0;
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    .image__final-container{
+        margin: 0;
+        width: 22rem; 
+    }
+    
+    .image__final{
+        max-width: 100%;   
+    }
+
+    .texto-resultado{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .boton{
+        font-weight: bold;
+        background-color: #ffd1df;
+        padding: 0.5rem;
+        border-radius: 8px;
+        border: 0.1rem solid black;
+        transition: all 0.5s;
+    }
+
+    .boton:hover{
+        background-color: #fd9fbb;
+        font-weight: bold;
+        transform: scale(1.1);
+    }
+}
