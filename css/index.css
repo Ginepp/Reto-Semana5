@@ -229,6 +229,7 @@
   .resultado-contenedor {
     display: flex;
     flex-direction: column;
+    padding: 20px;
   }
   
   .img-sgv {
