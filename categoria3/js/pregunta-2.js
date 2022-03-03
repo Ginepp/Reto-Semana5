@@ -21,7 +21,7 @@ window.onload = function () {
                    timer: 2000,
                    showConfirmButton: false
                 }).then((result) => {
-                   location.href = '/categoria3/html/pregunta-3.html';
+                   location.href = 'pregunta-3.html';
                 })
             }
             else {
@@ -32,7 +32,7 @@ window.onload = function () {
                    timer: 2000,
                    showConfirmButton: false
                 }).then((result) => {
-                    location.href = '/categoria3/html/pregunta-3.html';
+                    location.href = 'pregunta-3.html';
                 })
             }
         };
