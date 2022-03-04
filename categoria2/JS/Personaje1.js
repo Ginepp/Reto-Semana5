@@ -20,7 +20,7 @@ window.onload = function () {
           timer: 2000,
           showConfirmButton: false
         }).then((result) => {
-          location.href = '/categoria2/html/Personaje2.html';
+          location.href = 'Personaje2.html';
         })
 
       } else {
@@ -32,7 +32,7 @@ window.onload = function () {
           timer: 2000,
           showConfirmButton: false
         }).then((result) => {
-          location.href = '/categoria2/html/Personaje2.html';
+          location.href = 'Personaje2.html';
         })
         }
       };
