@@ -138,7 +138,13 @@
     border-left: 0;
     border-right: 0;
     outline: none;
-    border-color: #670b73;
+    border-color: #EDA56E;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #E66858;
+    font-weight: bold;
   }
   
   .imagen-pregunta0,
@@ -239,6 +245,7 @@
     background-color: var(--blanco);
     padding: 50px;
     border-radius: 20px;
+    width: 400px;
     box-shadow: 1px 1px 40px 0 rgb(79, 80, 83);
   }
   #boton-amarillo {
