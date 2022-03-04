@@ -251,7 +251,9 @@
       transition: all .3s ease;
       color: #000;
       padding: 10px 30px;
+      border: 2px solid #000;
   }
   #boton-amarillo:hover {
+    transform: scale(1.1);
     background: #e76c59b7;
   }
