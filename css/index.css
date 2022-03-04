@@ -89,7 +89,7 @@
   }
   
   .contenedor-categorias a:hover {
-    background-color: var(--primario);
+
     color: rgb(70, 7, 78);
     transition: 2s;
   }
@@ -240,4 +240,18 @@
     padding: 50px;
     border-radius: 20px;
     box-shadow: 1px 1px 40px 0 rgb(79, 80, 83);
+  }
+  #boton-amarillo {
+      align-self: center;
+      padding: 0.5rem;
+      border-radius: 10px;
+      border: 0.15rem solid var(--color-border);
+      background-color: rgb(255, 212, 133);
+      font-weight: bold;
+      transition: all .3s ease;
+      color: #000;
+      padding: 10px 30px;
+  }
+  #boton-amarillo:hover {
+    background: #e76c59b7;
   }
